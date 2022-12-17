@@ -22,6 +22,8 @@ for i in range(count):
 
       pos2 = source_data.find('</a>')
       extract_data = source_data[: pos2]
+      extract_data = extract_data.strip()
 
       source_data = source_data[pos2+1:]
       print(i+1, extract_data)
+     
