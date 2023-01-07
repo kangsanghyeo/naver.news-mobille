@@ -25,7 +25,6 @@ for i in range(count):
       extract_data = extract_data.strip()
 
       source_data =source_data[pos2+1:]
-      print(i+1, extract_data)
 
       pos1 = source_data.find('"lede">')+ len('"lede">')
       source_data = source_data[pos1:]
